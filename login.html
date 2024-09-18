@@ -7,89 +7,6 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" href="/assets/images/connection.png">
-    <style>
-  
-
-.errorSec {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh; 
-    background-color: #000; 
-    color: #fff; 
-    text-align: center;
-}
-
-.error-container {
-    max-width: 600px;
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.error-container h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    margin: 50px;
-}
-
-
-
-.error-image {
-    max-width: 100%;
-height: 400px;
-    margin-bottom: 1.5rem;
-}
-
- .btn {
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-left: 150px;
-}
-
-.error-container .btn:hover {
-    background-color: #ff4500; 
-}
-
-.error-container h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.error-container p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.error-image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1.5rem;
-}
-
- .btn {
-    background-color: #ff6600; 
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
- .btn:hover {
-    background-color: #ff4500;
-}
-
-    </style>
 </head>
 <body>
     <header>
@@ -109,23 +26,29 @@ height: 400px;
             </div>
         </nav>
     </header>
-    <section class="errorSec">
-        <div class="error-container">
-            <h1>404 - Page Not Found</h1>
-            <img src="/assets/images/404.png" alt="404 Image" class="error-image">
+    <div id="login-message"></div>
+    <sec class="registerSec">
+        <h2 class="registerHeading">Log In</h2>
+        <div class="registerForm">
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+            <div class="registerFooter">
+                <p>Don't have an account? <a href="register.html">Sign Up</a></p>
+            </div>
         </div>
-        <a href="index.html" class="btn btn-primary">Take Me Home</a>
-    </section>
-    
-    <div class="kkk">
+    </sec>
+
     <footer>
         <div class="footer-section">
             <h5>Connect With Us</h5>
             <ul>
-                <li><i class="fa-brands fa-youtube"></i><a href="#"> YouTube</a></li>
-                <li><i class="fa-brands fa-facebook"></i><a href="#"> Facebook</a></li>
-                <li><i class="fa-brands fa-x-twitter"></i><a href="#"> X</a></li>
-                <li><i class="fa-brands fa-instagram"></i><a href="#"> Instagram</a></li>
+                <li><i class="fa-brands fa-youtube"></i><a href="#">YouTube</a></li>
+                <li><i class="fa-brands fa-facebook"></i><a href="#">Facebook</a></li>
+                <li><i class="fa-brands fa-x-twitter"></i><a href="#">X</a></li>
+                <li><i class="fa-brands fa-instagram"></i><a href="#">Instagram</a></li>
             </ul>
         </div>
 
@@ -143,11 +66,11 @@ height: 400px;
             <h5>Account</h5>
             <ul>
                 <li><a href="register.html">Create Account</a></li>
-                <li><a href="login.html">Log In</a></li>
+                <li><a href="#">Log In</a></li>
             </ul>
         </div>
     </footer>
-    </div>
+
     <script src="https://kit.fontawesome.com/707e911d29.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
