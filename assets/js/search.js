@@ -22,7 +22,7 @@ const searchSw = function () {
         </div>`;
     } else {
         const filteredData = data.filter(element =>
-            element.name.toLowerCase().includes(searchEl)
+            element.name.toLowerCase().includes(searchEl)|| element.name.toLowerCase().endsWith(searchEl)
         );
         
         if (filteredData.length > 0) {

@@ -486,3 +486,15 @@ h4{
     width: 150px;
     z-index: 2;
 }
+.topTLogin{
+    padding-top: 180px;
+    color:rgb(255, 100, 10);
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#login-message{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    background-color: rgb(8, 8, 8);
+}
