@@ -16,12 +16,13 @@ body {
     color: white;
     height: 80px; 
 }
-
+.logoIcon{
+    width: 40px;margin-left: 100px;margin-right: 10px;
+}
 .logo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.7em;
     color: rgb(255, 100, 10);
-    margin-left: 90px;
     margin-right: 40px;
 }
 
